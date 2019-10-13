@@ -1,0 +1,20 @@
+nprocesses = 5;
+processName = ["mixing","moulding","baking","decorating","packaging"];
+
+nworkers = 24;
+workerName = ["Peter Quill", "Bucky Barnes", "Stephen Strange","Shuri", "Sam Wilson","Steve Rogers","Wanda Maximoff","Bruce Banner","Peter Parker","Natasha Romandoff","Carol Danvers",
+              "James Rhodes","Clint Barton","Eric Selvig","Tanleer Tivan","Hank Pym","Hope Pym","T'Challa","Eric Killmonger","Vision","Valkyrie","Adam Warlock","Adrian Toomes",
+              "Odin Borson"];
+% below is an array (numberOfWorkers x numberOfProcesses), if a worker is trained on a process then the value is 1 else 0.
+ability =  [|1,0,1,2,3,2,0,0,1,0,0,0,1,0,2,1,0,3,0,1,2,0,0,0,
+            |2,1,0,0,0,1,1,0,2,0,0,0,1,1,3,0,1,1,1,0,0,2,0,1,
+            |0,1,1,0,0,3,0,0,0,0,1,2,0,0,0,1,0,2,0,1,0,0,1,0,
+            |1,0,0,0,4,0,1,1,0,1,0,3,1,1,1,0,1,1,0,0,2,1,1,1,
+            |2,0,2,1,0,1,3,0,1,3,1,0,1,0,0,1,0,3,1,0,1,0,0,1,
+            |];  
+
+% finds an assignment for next 15 days
+nDays = 10;   % goal is to find an array[worker,day] of var Process : assignment;
+
+minimumWorkers = [6,4,3,7,2]; % minimum worker needed for each process
+

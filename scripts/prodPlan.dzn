@@ -1,0 +1,19 @@
+nproducts = 3;
+profit = [150,50,70];
+demand = [0,0,0];
+penalty = [10,10,10];
+productName = ["chocolate-cake","lemon-cake","biscuits"];
+itemsPerBatch = [200,100,300];
+minimumProduce  = [400,100,200];
+
+nresources = 5;
+budgetForResources = 17151520;
+resourceName = ["egg", "lemon", "butter", "flour", "cocoa"];
+%unit cost of all resources
+resourceCost = [10,20,50,70,100]; 
+
+consumption = [|250,2,75,100,0,
+               |200,0,75,150,75,
+               |100,10,30,100,50,|];
+               
+maxNumOfBatches = 7;

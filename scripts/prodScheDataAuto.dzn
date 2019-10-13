@@ -1,0 +1,11 @@
+nprocesses =  ;
+processName = [ ];
+
+duration = [ ];
+nproducts = ;
+productName = [ ];
+itemsPerBatch = [ ];
+                         
+maxNumOfBatches = [ ]; 
+
+produce = [890, 100, 200];

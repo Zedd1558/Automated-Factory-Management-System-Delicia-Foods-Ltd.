@@ -1,0 +1,17 @@
+nproducts =  ;
+profit = [ ];
+demand = [ ];
+penalty = [ ];
+productName = [ ];
+itemsPerBatch = [ ];
+minimumProduce = [ ];
+
+nresources = ;
+budgetForResources = ;
+resourceName = [ ];
+
+resourceCost = [ ]; 
+
+consumption = [ ];
+               
+maxNumOfBatches =  ;
