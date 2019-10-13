@@ -1,2 +1,2 @@
-# Automated-Factory-Management-System-DeliciaFoods-Ltd.
+# Automated-Factory-Management-System-Delicia-Foods-Ltd.
 This project is a demonstration how constraint satisfaction and discrete optimization models can be applied in business or factory management systems.
